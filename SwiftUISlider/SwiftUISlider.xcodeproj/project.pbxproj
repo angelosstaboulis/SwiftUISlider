@@ -15,6 +15,9 @@
 		D682B421290FC2F500A30FC0 /* SwiftUISliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B420290FC2F500A30FC0 /* SwiftUISliderUITests.swift */; };
 		D682B423290FC2F500A30FC0 /* SwiftUISliderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682B422290FC2F500A30FC0 /* SwiftUISliderUITestsLaunchTests.swift */; };
 		D682B431290FE78F00A30FC0 /* DeviceKit in Frameworks */ = {isa = PBXBuildFile; productRef = D682B430290FE78F00A30FC0 /* DeviceKit */; };
+		D6BF3CFF291102DA00EBBD5A /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BF3CFE291102DA00EBBD5A /* Numbers.swift */; };
+		D6BF3D022911045D00EBBD5A /* ViewSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BF3D012911045D00EBBD5A /* ViewSlider.swift */; };
+		D6BF3D042911052D00EBBD5A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BF3D032911052D00EBBD5A /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		D682B41C290FC2F500A30FC0 /* SwiftUISliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUISliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D682B420290FC2F500A30FC0 /* SwiftUISliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISliderUITests.swift; sourceTree = "<group>"; };
 		D682B422290FC2F500A30FC0 /* SwiftUISliderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISliderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6BF3CFE291102DA00EBBD5A /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		D6BF3D012911045D00EBBD5A /* ViewSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSlider.swift; sourceTree = "<group>"; };
+		D6BF3D032911052D00EBBD5A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 		D682B404290FC2F100A30FC0 /* SwiftUISlider */ = {
 			isa = PBXGroup;
 			children = (
+				D6BF3D002911042100EBBD5A /* View */,
 				D682B405290FC2F100A30FC0 /* SwiftUISliderApp.swift */,
 				D682B407290FC2F100A30FC0 /* ContentView.swift */,
 				D682B409290FC2F400A30FC0 /* Assets.xcassets */,
@@ -127,6 +134,16 @@
 				D682B422290FC2F500A30FC0 /* SwiftUISliderUITestsLaunchTests.swift */,
 			);
 			path = SwiftUISliderUITests;
+			sourceTree = "<group>";
+		};
+		D6BF3D002911042100EBBD5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6BF3CFE291102DA00EBBD5A /* Numbers.swift */,
+				D6BF3D012911045D00EBBD5A /* ViewSlider.swift */,
+				D6BF3D032911052D00EBBD5A /* HeaderView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6BF3D042911052D00EBBD5A /* HeaderView.swift in Sources */,
 				D682B408290FC2F100A30FC0 /* ContentView.swift in Sources */,
+				D6BF3D022911045D00EBBD5A /* ViewSlider.swift in Sources */,
 				D682B406290FC2F100A30FC0 /* SwiftUISliderApp.swift in Sources */,
+				D6BF3CFF291102DA00EBBD5A /* Numbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
